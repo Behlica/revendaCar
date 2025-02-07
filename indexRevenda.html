@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img\dev.png">
+    <link rel="stylesheet" href="style\reset.css">
+    <link rel="stylesheet" href="style\style.css">
+    <title>Revenda Herbie</title>
+</head>
+<body>
+    <div class="container">
+        <img src="img/racing-car.png" alt="alta" class="normal">
+        <h1>Revenda Herbie</h1>
+        <form>
+            <p>Modelo: 
+                <input type="text" id="inModelo" required autofocus>
+            </p>
+            <p>Preço:
+                <input type="number" id="inPreco" required>
+                <input type="submit" value="Adicionar">
+            </p>
+            <div class="button-group">
+                <input type="button" id="btListarTodos" value="Listar Todos">
+                <input type="button" id="btFiltrarPorPreco" value="Filtrar Por Preço">
+                <input type="button" id="btSimularPromocao" value="Simular Promoção">
+            </div>
+        </form>
+        <h3></h3>
+    </div>
+    <script src="script\script.js"></script>
+</body>
+</html>
